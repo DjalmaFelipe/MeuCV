@@ -1,0 +1,121 @@
+body {
+    margin: 0%;
+}
+
+h1 {
+    padding-left: 2vh;
+    padding-right: 2vw;
+}
+
+h2 {
+    font-style: normal;
+    padding-left: 0.5vw;
+    color: #0b0e1f
+}
+
+
+ul {
+    list-style:none;
+    padding: 2%;
+}
+
+p{
+    margin: 2%;
+}
+
+.informacoes {
+    font-style: italic;
+    height: 40vh;
+    padding-bottom: 12vh;
+    position: relative;
+}
+.contatos {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 70vw;
+    bottom: 5vh;
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#barra-lateral {
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #0e938b;
+}
+
+#foto {
+    height: 40vh;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 0 0 50% 50%;
+}
+
+#imagem {
+    height: 38vh;
+    width: 17vw;
+    border-radius: 50% 50% 50% 50%;
+}
+
+
+
+#dados{
+    height: 2vh;
+    width: 1vw;
+    padding-right: 1vw;
+}
+
+
+#icone-contato {
+    height: 5vh;
+    width: 2.56vw;
+    transition: transform 0.5s;
+}
+
+#icone-contato:hover {
+    transform: scale(1.8);
+}
+
+#corpo-do-curriculo {
+    width: 70vw;
+    height: 100vh;
+    background-color: #dfe0e8;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh;
+    font-size: large;
+    transition: transform 0.5s;
+}
+
+#conteudo-1{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo-2, #conteudo-3{
+    height: 70vh;
+    justify-content: center;
+    display: none;
+}
+
+
+#resumo {
+    text-align: center;
+}
